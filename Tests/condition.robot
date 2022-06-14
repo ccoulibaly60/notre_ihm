@@ -19,7 +19,7 @@ Troisieme exemple
    ${dico3} =  Create Dictionary  username=john  mdp=doe
     IF  '${dico3}[username]' == 'john'
         Log  Nom d'utilisateur correct
-        Log  Bienvenue
+        Log  Bienvenue à toi
     ELSE
         Log  Intrus
     END

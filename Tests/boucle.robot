@@ -6,7 +6,7 @@ Boucle
         Log  ${nombre}
         Log  Pause
     END
-    Log  La boucle est finie
+    Log  La boucle est finie depuis
 
 Boucle range
     [Tags]  two
@@ -14,4 +14,4 @@ Boucle range
         Log  ${index}
         Log  Pause
     END
-    Log  La boucle est finie!!!
+    Log  La boucle est finie!!! en plus

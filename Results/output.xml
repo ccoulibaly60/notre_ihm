@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220609 14:42:31.923" rpa="false" schemaversion="3">
-<suite id="s1" name="Boucle" source="C:\Developpement\notre_ihm\tests\boucle.robot">
-<test id="s1-t1" name="Boucle" line="4">
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220614 11:30:16.546" rpa="false" schemaversion="3">
+<suite id="s1" name="Tests" source="C:\Developpement\notre_ihm\tests">
+<suite id="s1-s1" name="Boucle" source="C:\Developpement\notre_ihm\tests\boucle.robot">
+<test id="s1-s1-t1" name="Boucle" line="4">
 <for flavor="IN">
 <var>${nombre}</var>
 <value>${MA_LISTE}</value>
@@ -10,28 +11,28 @@
 <kw name="Log" library="BuiltIn">
 <arg>${nombre}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220609 14:42:31.973" level="INFO">['un deux trois quatre cinq six sept']</msg>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<msg timestamp="20220614 11:30:16.599" level="INFO">['un deux trois quatre cinq six sept']</msg>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Pause</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220609 14:42:31.973" level="INFO">Pause</msg>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<msg timestamp="20220614 11:30:16.599" level="INFO">Pause</msg>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </kw>
-<status status="PASS" starttime="20220609 14:42:31.957" endtime="20220609 14:42:31.973"/>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </iter>
-<status status="PASS" starttime="20220609 14:42:31.957" endtime="20220609 14:42:31.973"/>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </for>
 <kw name="Log" library="BuiltIn">
-<arg>La boucle est finie</arg>
+<arg>La boucle est finie depuis</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220609 14:42:31.973" level="INFO">La boucle est finie</msg>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<msg timestamp="20220614 11:30:16.599" level="INFO">La boucle est finie depuis</msg>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </kw>
-<status status="PASS" starttime="20220609 14:42:31.957" endtime="20220609 14:42:31.973"/>
+<status status="PASS" starttime="20220614 11:30:16.598" endtime="20220614 11:30:16.599"/>
 </test>
-<test id="s1-t2" name="Boucle range" line="11">
+<test id="s1-s1-t2" name="Boucle range" line="11">
 <for flavor="IN RANGE">
 <var>${index}</var>
 <value>1</value>
@@ -41,103 +42,494 @@
 <kw name="Log" library="BuiltIn">
 <arg>${index}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220609 14:42:31.973" level="INFO">1</msg>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<msg timestamp="20220614 11:30:16.599" level="INFO">1</msg>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Pause</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220609 14:42:31.973" level="INFO">Pause</msg>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<msg timestamp="20220614 11:30:16.599" level="INFO">Pause</msg>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </kw>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </iter>
 <iter>
 <var name="${index}">2</var>
 <kw name="Log" library="BuiltIn">
 <arg>${index}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220609 14:42:31.973" level="INFO">2</msg>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<msg timestamp="20220614 11:30:16.599" level="INFO">2</msg>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Pause</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220609 14:42:31.973" level="INFO">Pause</msg>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<msg timestamp="20220614 11:30:16.599" level="INFO">Pause</msg>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </kw>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </iter>
 <iter>
 <var name="${index}">3</var>
 <kw name="Log" library="BuiltIn">
 <arg>${index}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220609 14:42:31.973" level="INFO">3</msg>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<msg timestamp="20220614 11:30:16.599" level="INFO">3</msg>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Pause</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220609 14:42:31.973" level="INFO">Pause</msg>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<msg timestamp="20220614 11:30:16.599" level="INFO">Pause</msg>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </kw>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </iter>
 <iter>
 <var name="${index}">4</var>
 <kw name="Log" library="BuiltIn">
 <arg>${index}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220609 14:42:31.973" level="INFO">4</msg>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<msg timestamp="20220614 11:30:16.599" level="INFO">4</msg>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Pause</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220609 14:42:31.973" level="INFO">Pause</msg>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<msg timestamp="20220614 11:30:16.599" level="INFO">Pause</msg>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </kw>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </iter>
 <iter>
 <var name="${index}">5</var>
 <kw name="Log" library="BuiltIn">
 <arg>${index}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220609 14:42:31.973" level="INFO">5</msg>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<msg timestamp="20220614 11:30:16.599" level="INFO">5</msg>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Pause</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220609 14:42:31.973" level="INFO">Pause</msg>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<msg timestamp="20220614 11:30:16.599" level="INFO">Pause</msg>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </kw>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </iter>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </for>
 <kw name="Log" library="BuiltIn">
-<arg>La boucle est finie</arg>
+<arg>La boucle est finie!!! en plus</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220609 14:42:31.973" level="INFO">La boucle est finie</msg>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<msg timestamp="20220614 11:30:16.599" level="INFO">La boucle est finie!!! en plus</msg>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </kw>
 <tag>two</tag>
-<status status="PASS" starttime="20220609 14:42:31.973" endtime="20220609 14:42:31.973"/>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.599"/>
 </test>
-<status status="PASS" starttime="20220609 14:42:31.925" endtime="20220609 14:42:31.973"/>
+<status status="PASS" starttime="20220614 11:30:16.594" endtime="20220614 11:30:16.599"/>
+</suite>
+<suite id="s1-s2" name="Condition" source="C:\Developpement\notre_ihm\tests\condition.robot">
+<test id="s1-s2-t1" name="Premier exemple" line="2">
+<kw name="Create Dictionary" library="BuiltIn">
+<var>${dico}</var>
+<arg>username=john</arg>
+<arg>mdp=doe</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<msg timestamp="20220614 11:30:16.615" level="INFO">${dico} = {'username': 'john', 'mdp': 'doe'}</msg>
+<status status="PASS" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.615"/>
+</kw>
+<if>
+<branch type="IF" condition="'${dico}[username]' == 'john'">
+<kw name="Log" library="BuiltIn">
+<arg>Nom d'utilisateur correct</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220614 11:30:16.615" level="INFO">Nom d'utilisateur correct</msg>
+<status status="PASS" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.615"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Bienvenue</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220614 11:30:16.615" level="INFO">Bienvenue</msg>
+<status status="PASS" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.615"/>
+</kw>
+<status status="PASS" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.615"/>
+</branch>
+<status status="PASS" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.615"/>
+</if>
+<status status="PASS" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.615"/>
+</test>
+<test id="s1-s2-t2" name="Deuxieme exemple" line="9">
+<kw name="Create Dictionary" library="BuiltIn">
+<var>${dico2}</var>
+<arg>username=richard</arg>
+<arg>mdp=doe</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<msg timestamp="20220614 11:30:16.615" level="INFO">${dico2} = {'username': 'richard', 'mdp': 'doe'}</msg>
+<status status="PASS" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.615"/>
+</kw>
+<if>
+<branch type="IF" condition="'${dico2}[username]' == 'john'">
+<kw name="Log" library="BuiltIn">
+<arg>Nom d'utilisateur correct</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.615"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Bienvenue</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.615"/>
+</kw>
+<status status="NOT RUN" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.615"/>
+</branch>
+<status status="PASS" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.615"/>
+</if>
+<tag>faux</tag>
+<status status="PASS" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.615"/>
+</test>
+<test id="s1-s2-t3" name="Troisieme exemple" line="17">
+<kw name="Create Dictionary" library="BuiltIn">
+<var>${dico3}</var>
+<arg>username=john</arg>
+<arg>mdp=doe</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<msg timestamp="20220614 11:30:16.615" level="INFO">${dico3} = {'username': 'john', 'mdp': 'doe'}</msg>
+<status status="PASS" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.615"/>
+</kw>
+<if>
+<branch type="IF" condition="'${dico3}[username]' == 'john'">
+<kw name="Log" library="BuiltIn">
+<arg>Nom d'utilisateur correct</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220614 11:30:16.630" level="INFO">Nom d'utilisateur correct</msg>
+<status status="PASS" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.630"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Bienvenue à toi</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220614 11:30:16.630" level="INFO">Bienvenue à toi</msg>
+<status status="PASS" starttime="20220614 11:30:16.630" endtime="20220614 11:30:16.630"/>
+</kw>
+<status status="PASS" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.630"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log" library="BuiltIn">
+<arg>Intrus</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20220614 11:30:16.630" endtime="20220614 11:30:16.630"/>
+</kw>
+<status status="NOT RUN" starttime="20220614 11:30:16.630" endtime="20220614 11:30:16.630"/>
+</branch>
+<status status="PASS" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.630"/>
+</if>
+<tag>double</tag>
+<status status="PASS" starttime="20220614 11:30:16.615" endtime="20220614 11:30:16.630"/>
+</test>
+<test id="s1-s2-t4" name="Quatrieme exemple" line="27">
+<kw name="Set Variable" library="BuiltIn">
+<var>${prix}</var>
+<arg>14</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20220614 11:30:16.630" level="INFO">${prix} = 14</msg>
+<status status="PASS" starttime="20220614 11:30:16.630" endtime="20220614 11:30:16.630"/>
+</kw>
+<if>
+<branch type="IF" condition="${prix} &lt; 15">
+<kw name="Log" library="BuiltIn">
+<arg>inferieur</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220614 11:30:16.630" level="INFO">inferieur</msg>
+<status status="PASS" starttime="20220614 11:30:16.630" endtime="20220614 11:30:16.630"/>
+</kw>
+<status status="PASS" starttime="20220614 11:30:16.630" endtime="20220614 11:30:16.630"/>
+</branch>
+<branch type="ELSE IF" condition="${prix} == 15">
+<kw name="Log" library="BuiltIn">
+<arg>égale</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20220614 11:30:16.630" endtime="20220614 11:30:16.630"/>
+</kw>
+<status status="NOT RUN" starttime="20220614 11:30:16.630" endtime="20220614 11:30:16.630"/>
+</branch>
+<branch type="ELSE IF" condition="${prix} &gt; 15">
+<kw name="Log" library="BuiltIn">
+<arg>supérieur</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20220614 11:30:16.630" endtime="20220614 11:30:16.630"/>
+</kw>
+<status status="NOT RUN" starttime="20220614 11:30:16.630" endtime="20220614 11:30:16.630"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log" library="BuiltIn">
+<arg>format non reconnu</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20220614 11:30:16.630" endtime="20220614 11:30:16.630"/>
+</kw>
+<status status="NOT RUN" starttime="20220614 11:30:16.630" endtime="20220614 11:30:16.630"/>
+</branch>
+<status status="PASS" starttime="20220614 11:30:16.630" endtime="20220614 11:30:16.630"/>
+</if>
+<tag>triple</tag>
+<status status="PASS" starttime="20220614 11:30:16.630" endtime="20220614 11:30:16.630"/>
+</test>
+<status status="PASS" starttime="20220614 11:30:16.599" endtime="20220614 11:30:16.630"/>
+</suite>
+<suite id="s1-s3" name="Dictionary" source="C:\Developpement\notre_ihm\tests\dictionary.robot">
+<test id="s1-s3-t1" name="Dictionnaire" line="2">
+<kw name="Create Dictionary" library="BuiltIn">
+<var>${dico}</var>
+<arg>login=john</arg>
+<arg>mdp=doe</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<msg timestamp="20220614 11:30:16.646" level="INFO">${dico} = {'login': 'john', 'mdp': 'doe'}</msg>
+<status status="PASS" starttime="20220614 11:30:16.646" endtime="20220614 11:30:16.646"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${dico}[mdp]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220614 11:30:16.646" level="INFO">doe</msg>
+<status status="PASS" starttime="20220614 11:30:16.646" endtime="20220614 11:30:16.646"/>
+</kw>
+<status status="PASS" starttime="20220614 11:30:16.646" endtime="20220614 11:30:16.646"/>
+</test>
+<status status="PASS" starttime="20220614 11:30:16.646" endtime="20220614 11:30:16.646"/>
+</suite>
+<suite id="s1-s4" name="Liste" source="C:\Developpement\notre_ihm\tests\liste.robot">
+<test id="s1-s4-t1" name=" constante" line="9">
+<kw name="Log" library="BuiltIn">
+<arg>robot secret</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220614 11:30:16.646" level="INFO">robot secret</msg>
+<status status="PASS" starttime="20220614 11:30:16.646" endtime="20220614 11:30:16.646"/>
+</kw>
+<status status="PASS" starttime="20220614 11:30:16.646" endtime="20220614 11:30:16.646"/>
+</test>
+<test id="s1-s4-t2" name="list" line="12">
+<kw name="Log" library="BuiltIn">
+<arg>@{NOMS}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220614 11:30:16.662" level="INFO">JOHN ERIC EMELIE FRANK</msg>
+<status status="PASS" starttime="20220614 11:30:16.662" endtime="20220614 11:30:16.662"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>@{NOMS2}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220614 11:30:16.662" level="INFO">['JOHN ERIC EMELIE FRANK'] Richard</msg>
+<status status="PASS" starttime="20220614 11:30:16.662" endtime="20220614 11:30:16.662"/>
+</kw>
+<status status="PASS" starttime="20220614 11:30:16.662" endtime="20220614 11:30:16.677"/>
+</test>
+<test id="s1-s4-t3" name="Elements precis de la liste" line="19">
+<kw name="Log" library="BuiltIn">
+<arg>1 s'ecrit ${Multiliste}[0]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220614 11:30:16.677" level="INFO">1 s'ecrit un</msg>
+<status status="PASS" starttime="20220614 11:30:16.677" endtime="20220614 11:30:16.677"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>5 s'ecrit ${Multiliste}[4]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220614 11:30:16.677" level="INFO">5 s'ecrit cinq</msg>
+<status status="PASS" starttime="20220614 11:30:16.677" endtime="20220614 11:30:16.677"/>
+</kw>
+<status status="PASS" starttime="20220614 11:30:16.677" endtime="20220614 11:30:16.677"/>
+</test>
+<test id="s1-s4-t4" name="Indices Negatifs" line="23">
+<kw name="Log" library="BuiltIn">
+<arg>${Multiliste}[-1]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220614 11:30:16.677" level="INFO">six</msg>
+<status status="PASS" starttime="20220614 11:30:16.677" endtime="20220614 11:30:16.677"/>
+</kw>
+<status status="PASS" starttime="20220614 11:30:16.677" endtime="20220614 11:30:16.677"/>
+</test>
+<test id="s1-s4-t5" name="Slice" line="26">
+<kw name="Log" library="BuiltIn">
+<arg>${Multiliste}[0:3]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220614 11:30:16.695" level="INFO">['un', 'deux', 'trois']</msg>
+<status status="PASS" starttime="20220614 11:30:16.677" endtime="20220614 11:30:16.696"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${Multiliste}[0:6:2]</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220614 11:30:16.698" level="INFO">['un', 'trois', 'cinq']</msg>
+<status status="PASS" starttime="20220614 11:30:16.697" endtime="20220614 11:30:16.698"/>
+</kw>
+<status status="PASS" starttime="20220614 11:30:16.677" endtime="20220614 11:30:16.698"/>
+</test>
+<status status="PASS" starttime="20220614 11:30:16.646" endtime="20220614 11:30:16.699"/>
+</suite>
+<suite id="s1-s5" name="Main" source="C:\Developpement\notre_ihm\tests\main.robot">
+<kw name="Begin Web Test" library="common" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220614 11:30:17.178" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20220614 11:30:17.178" endtime="20220614 11:30:24.929"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220614 11:30:24.931" endtime="20220614 11:30:25.106"/>
+</kw>
+<status status="PASS" starttime="20220614 11:30:17.178" endtime="20220614 11:30:25.107"/>
+</kw>
+<test id="s1-s5-t1" name="Voir Produits Disponible" line="10">
+<kw name="Charger La Page Web" library="PageAcceuil">
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${GOOGLE_URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20220614 11:30:25.117" level="INFO">Opening url 'https://www.google.fr/'</msg>
+<status status="PASS" starttime="20220614 11:30:25.117" endtime="20220614 11:30:26.864"/>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<arg>Google</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" starttime="20220614 11:30:26.864" endtime="20220614 11:30:26.893"/>
+</kw>
+<status status="PASS" starttime="20220614 11:30:25.116" endtime="20220614 11:30:26.893"/>
+</kw>
+<kw name="Chercher Le site Web" library="PageAcceuil">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="L2AGLb"]/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220614 11:30:26.899" level="INFO">Clicking element 'xpath=//*[@id="L2AGLb"]/div'.</msg>
+<status status="PASS" starttime="20220614 11:30:26.898" endtime="20220614 11:30:27.005"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>name=q</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20220614 11:30:27.005" endtime="20220614 11:30:27.590"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name=q</arg>
+<arg>amazon</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220614 11:30:27.592" level="INFO">Typing text 'amazon' into text field 'name=q'.</msg>
+<status status="PASS" starttime="20220614 11:30:27.591" endtime="20220614 11:30:28.047"/>
+</kw>
+<kw name="Mouse Down" library="SeleniumLibrary">
+<arg>xpath=/html/body/div[1]/div[2]/div/img</arg>
+<doc>Simulates pressing the left mouse button on the element ``locator``.</doc>
+<msg timestamp="20220614 11:30:28.049" level="INFO">Simulating Mouse Down on element 'xpath=/html/body/div[1]/div[2]/div/img'.</msg>
+<status status="PASS" starttime="20220614 11:30:28.049" endtime="20220614 11:30:28.559"/>
+</kw>
+<kw name="Mouse Up" library="SeleniumLibrary">
+<arg>xpath=/html/body/div[1]/div[2]/div/img</arg>
+<doc>Simulates releasing the left mouse button on the element ``locator``.</doc>
+<msg timestamp="20220614 11:30:28.560" level="INFO">Simulating Mouse Up on element 'xpath=/html/body/div[1]/div[2]/div/img'.</msg>
+<status status="PASS" starttime="20220614 11:30:28.560" endtime="20220614 11:30:28.855"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220614 11:30:28.856" level="INFO">Clicking element 'xpath=/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]'.</msg>
+<status status="PASS" starttime="20220614 11:30:28.855" endtime="20220614 11:30:30.743"/>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<arg>Images</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" starttime="20220614 11:30:30.744" endtime="20220614 11:30:30.787"/>
+</kw>
+<status status="PASS" starttime="20220614 11:30:26.896" endtime="20220614 11:30:30.788"/>
+</kw>
+<kw name="Naviguer vers le site amazon" library="PageAcceuil">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="tads"]/div/div/div/div/div[1]/a/div[1]/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220614 11:30:30.792" level="INFO">Clicking element 'xpath=//*[@id="tads"]/div/div/div/div/div[1]/a/div[1]/span'.</msg>
+<msg timestamp="20220614 11:30:31.025" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220614 11:30:31.028" level="FAIL">Element with locator 'xpath=//*[@id="tads"]/div/div/div/div/div[1]/a/div[1]/span' not found.</msg>
+<status status="FAIL" starttime="20220614 11:30:30.792" endtime="20220614 11:30:31.175"/>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<arg>Commandes</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="NOT RUN" starttime="20220614 11:30:31.176" endtime="20220614 11:30:31.176"/>
+</kw>
+<status status="FAIL" starttime="20220614 11:30:30.791" endtime="20220614 11:30:31.177"/>
+</kw>
+<kw name="Rechercher le produit" library="PageAcceuil">
+<status status="NOT RUN" starttime="20220614 11:30:31.178" endtime="20220614 11:30:31.178"/>
+</kw>
+<status status="FAIL" starttime="20220614 11:30:25.110" endtime="20220614 11:30:31.179">Element with locator 'xpath=//*[@id="tads"]/div/div/div/div/div[1]/a/div[1]/span' not found.</status>
+</test>
+<test id="s1-s5-t2" name="Choisir son produit" line="16">
+<kw name="Choisir Produit Interessant" library="PageProduit">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="search"]/div[1]/div[1]/div/span[3]/div[2]/div[3]/div/div/div/div/div/div/div[2]/div[1]/h2/a/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220614 11:30:31.183" level="INFO">Clicking element 'xpath=//*[@id="search"]/div[1]/div[1]/div/span[3]/div[2]/div[3]/div/div/div/div/div/div/div[2]/div[1]/h2/a/span'.</msg>
+<msg timestamp="20220614 11:30:31.393" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220614 11:30:31.393" level="FAIL">Element with locator 'xpath=//*[@id="search"]/div[1]/div[1]/div/span[3]/div[2]/div[3]/div/div/div/div/div/div/div[2]/div[1]/h2/a/span' not found.</msg>
+<status status="FAIL" starttime="20220614 11:30:31.182" endtime="20220614 11:30:31.393"/>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<arg>Ajouter au panier</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="NOT RUN" starttime="20220614 11:30:31.393" endtime="20220614 11:30:31.393"/>
+</kw>
+<status status="FAIL" starttime="20220614 11:30:31.182" endtime="20220614 11:30:31.393"/>
+</kw>
+<kw name="Choisir taille cable" library="PageProduit">
+<status status="NOT RUN" starttime="20220614 11:30:31.393" endtime="20220614 11:30:31.393"/>
+</kw>
+<kw name="Ajouter produit au panier" library="PageProduit">
+<status status="NOT RUN" starttime="20220614 11:30:31.393" endtime="20220614 11:30:31.393"/>
+</kw>
+<status status="FAIL" starttime="20220614 11:30:31.181" endtime="20220614 11:30:31.393">Element with locator 'xpath=//*[@id="search"]/div[1]/div[1]/div/span[3]/div[2]/div[3]/div/div/div/div/div/div/div[2]/div[1]/h2/a/span' not found.</status>
+</test>
+<test id="s1-s5-t3" name="Proceder au paiement" line="21">
+<kw name="Inspecter panier" library="Panier">
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>xpath=//*[@id="nav-cart"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20220614 11:30:31.393" level="INFO">Clicking link 'xpath=//*[@id="nav-cart"]'.</msg>
+<msg timestamp="20220614 11:30:31.608" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220614 11:30:31.608" level="FAIL">Link with locator 'xpath=//*[@id="nav-cart"]' not found.</msg>
+<status status="FAIL" starttime="20220614 11:30:31.393" endtime="20220614 11:30:31.608"/>
+</kw>
+<kw name="Wait Until Page Containes">
+<arg>Votre panier</arg>
+<status status="NOT RUN" starttime="20220614 11:30:31.626" endtime="20220614 11:30:31.626"/>
+</kw>
+<status status="FAIL" starttime="20220614 11:30:31.393" endtime="20220614 11:30:31.627"/>
+</kw>
+<kw name="Passer Commande" library="Panier">
+<status status="NOT RUN" starttime="20220614 11:30:31.627" endtime="20220614 11:30:31.627"/>
+</kw>
+<status status="FAIL" starttime="20220614 11:30:31.393" endtime="20220614 11:30:31.628">Link with locator 'xpath=//*[@id="nav-cart"]' not found.</status>
+</test>
+<kw name="End Web Test" library="common" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220614 11:30:31.630" endtime="20220614 11:30:33.869"/>
+</kw>
+<status status="PASS" starttime="20220614 11:30:31.630" endtime="20220614 11:30:33.869"/>
+</kw>
+<status status="FAIL" starttime="20220614 11:30:16.699" endtime="20220614 11:30:33.869"/>
+</suite>
+<status status="FAIL" starttime="20220614 11:30:16.546" endtime="20220614 11:30:33.869"/>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="0" skip="0">All Tests</stat>
+<stat pass="12" fail="3" skip="0">All Tests</stat>
 </total>
 <tag>
+<stat pass="1" fail="0" skip="0">double</stat>
+<stat pass="1" fail="0" skip="0">faux</stat>
+<stat pass="1" fail="0" skip="0">triple</stat>
 <stat pass="1" fail="0" skip="0">two</stat>
 </tag>
 <suite>
-<stat pass="2" fail="0" skip="0" id="s1" name="Boucle">Boucle</stat>
+<stat pass="12" fail="3" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1" name="Boucle">Tests.Boucle</stat>
+<stat pass="4" fail="0" skip="0" id="s1-s2" name="Condition">Tests.Condition</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s3" name="Dictionary">Tests.Dictionary</stat>
+<stat pass="5" fail="0" skip="0" id="s1-s4" name="Liste">Tests.Liste</stat>
+<stat pass="0" fail="3" skip="0" id="s1-s5" name="Main">Tests.Main</stat>
 </suite>
 </statistics>
 <errors>
